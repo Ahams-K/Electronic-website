@@ -14,12 +14,16 @@ const categoryImages: Record<string, string> = {
         'https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=800&q=85',
     smartphones:
         'https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=800&q=85',
+    accessories:
+        'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=85',
+    laptops:
+        'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=85'
 }
 
 const categorySubtitles: Record<string, string> = {
     headphones: 'Find your sound.',
     speakers: 'Bring sound to life.',
-    smartphones: 'Stay one step ahead.',
+    smartphones: 'Stay one step ahead.'
 }
 
 function Home() {
